@@ -120,7 +120,7 @@ function Header({ cartItems }) {
               <option>Luggage & Bags</option>
             </select> */}
             <Paper
-              component="form"
+              component="div"
               sx={{
                 p: "4px 4px",
                 display: "flex",
