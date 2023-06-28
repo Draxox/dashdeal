@@ -1,0 +1,28 @@
+/* .product {
+  width: 100%;
+} */
+
+.productcard {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  max-height: 460px;
+  min-height: 284px;
+  min-width: 100px;
+  width: 100%;
+  border: 1px solid transparent;
+}
+.productcard:hover {
+  border: 1px solid green;
+  box-shadow: 0 0 10px 2px yellowgreen;
+}
+
+.productTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  line-height: 1.2; /* Adjust line height as needed */
+  max-height: 2.8em; /*Adjust based on line height and number of lines*/
+}

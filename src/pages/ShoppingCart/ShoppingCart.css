@@ -1,0 +1,29 @@
+/* .cart_showPanel {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+} */
+.cart_title_left {
+  font-weight: 500;
+  /* background-color: rgba(219, 219, 50, 0.212); */
+}
+.cart_title_right {
+  margin-bottom: 1rem;
+  /* background-color: rgba(76, 125, 56, 0.212); */
+}
+/* .card_left {
+  margin-right: 10px;
+} */
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  line-height: 1.2; /* Adjust line height as needed */
+  max-height: 2.8em; /* Adjust based on line height and number of lines */
+}
+.price {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,30 @@
+/* .header {
+  border: 2px solid transparent;
+}
+.header:hover {
+  border: 2px solid white;
+} */
+
+.header_nav > .header_list {
+  display: flex;
+  align-items: center;
+}
+#navlist {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+/* .searchbar {
+  display: flex;
+}
+.select_tag {
+  height: 50px;
+  width: 4rem;
+  border: 2px solid transparent;
+  border-radius: 4px 0 0 4px;
+}
+.select_tag:hover {
+  border: 2px solid rgb(238, 164, 15);
+} */
