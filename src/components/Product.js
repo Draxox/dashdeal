@@ -109,6 +109,7 @@ const Product = ({ id, image, title, rating, quantity, price, addToCart }) => {
           }}
         >
           <Button
+            className="btn"
             style={{
               color: "white",
               fontSize: isSmallScreen ? "0.65rem" : "0.75rem",

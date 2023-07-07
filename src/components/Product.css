@@ -26,3 +26,7 @@
   line-height: 1.2; /* Adjust line height as needed */
   max-height: 2.8em; /*Adjust based on line height and number of lines*/
 }
+.btn:active {
+  transform: scale(0.9);
+  transition: all ease-out;
+}
